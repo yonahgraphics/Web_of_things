@@ -1,0 +1,31 @@
+{
+    "pi": {
+        "name": "Implementing Web of things",
+        "port": "1234",
+
+        "sensors": {
+            "pir":{
+            "name": "Passive Infrared Sensor",
+            "unit":  "",
+            "value": "false",
+            "gpio": 22
+            }
+       },
+
+        "actuators": {
+            "leds":{
+                "green":{
+                    "name": "Green LED",
+                    "value": "true",
+                    "gpio": 23
+                },
+                "red":{
+                    "name": "Red LED",
+                    "value": "true",
+                    "gpio": 24
+                }
+            }
+        }
+    }
+}
+ 
